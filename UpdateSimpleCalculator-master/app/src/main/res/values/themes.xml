@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- res/values/themes.xml -->
+    <style name="Theme.SimpleCaculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#6200EA</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:statusBarColor">#3700B3</item>
+        <item name="android:buttonStyle">@style/ButtonStyle.Gradient</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="ButtonStyle.Gradient" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+</resources>
